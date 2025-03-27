@@ -1,0 +1,144 @@
+
+/*************************************************************/
+/* Image banner */
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  background-color: #8ef3fb;
+  background-image: url("/images/banner.png");
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+}
+
+html.dark body::before,
+body.dark::before {
+  background-color: #000000;
+  background-image: url("/images/banner-dark.png");
+}
+
+header {
+  position: relative;
+  z-index: 1;
+  background-color: transparent;
+}
+
+main.content {
+  position: relative;
+  z-index: 2;
+  margin-top: 300px;
+}
+
+/*************************************************************/
+
+.banniere-titre {
+  color: #001483;
+  position: relative;
+  z-index: 3;
+  padding: 2rem;
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.banniere-titre h1 {
+  color: #001483;
+}
+
+/*************************************************************/
+
+.main {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-size: 1.5rem;
+
+}
+
+@media (min-width: 1200px) {
+  main {
+    max-width: 1200px;
+  }
+}
+
+
+/************************************************************/
+/* Supprime les bordures sur thead et td */
+
+table thead th {
+  border: none !important;
+}
+
+
+/* Supprime la bordure haute du tableau */
+table td {
+  border-bottom: none !important;
+}
+
+/* debug
+table * {
+  outline: 1px dashed red;
+}
+*/
+
+/*********************************************************/
+
+table {
+  border-collapse: separate;
+  border-spacing: 2rem 0; /* espace horizontal uniquement */
+  width: 100%;
+  table-layout: fixed;
+}
+
+th, td {
+  padding: 0.5rem 1rem;
+    width: auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+/************************************************/
+/* email link */
+
+/* assets/css/email.css */
+.email-tooltip {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #333;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.8em;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+a.secure-email:hover .email-tooltip {
+  opacity: 1;
+}
+
+/* Cache l'info-bulle quand l'email est révélé */
+a.secure-email.revealed .email-tooltip {
+  display: none;
+}
+
+/************************************************/
+/* Double colonne responsive */
+
+.dual-column {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2.5rem;
+  align-items: start;
+}

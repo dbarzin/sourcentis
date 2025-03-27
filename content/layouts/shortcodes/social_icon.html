@@ -1,0 +1,12 @@
+<!-- layouts/shortcodes/social_icon.html -->
+{{- $name := (.Get "name") | lower -}}
+{{- $link := .Get "link" -}}
+<a href="{{ $link }}" target="_blank" rel="noopener noreferrer" class="social-icon">
+  {{- if eq $name "linkedin" -}}
+    LinkedIn
+  {{- else if eq $name "twitter" -}}
+    Twitter
+  {{- else if eq $name "github" -}}
+    GitHub
+  {{- end -}}
+</a>

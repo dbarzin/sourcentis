@@ -1,0 +1,11 @@
+---
+title: "Open Source Webinar by OW2"
+date: 2024-04-28
+tags: ["OW2", "Mercator"]
+draft: false
+summary: ""
+---
+
+🚀 Ne ratez pas la [présentation de Mercator chez OW2](https://pretix.ow2.org/yp33e-4/) ce jeudi 3 avril à 16:00 CET !
+
+📌 Pensez à vous inscrire et à bloquer votre agenda !

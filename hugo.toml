@@ -1,0 +1,71 @@
+baseURL = "https://www.sourcentis.com/"
+languageCode = "fr-fr"  # Format ISO 639-1 + ISO 3166-2
+title = "Sourcentis"
+theme = "PaperMod"
+
+# Optimisation SEO
+enableRobotsTXT = true
+defaultContentLanguage = "fr"
+disableHugoGeneratorInject = true  # Optionnel : masque la version Hugo
+
+[pagination]
+  pagerSize = 10
+
+[languages]
+  [languages.fr]
+    languageName = "Français"
+    weight = 1
+    contentDir = "content"
+    title = "Sourcentis"
+
+  [languages.en]
+    languageName = "English"
+    weight = 2
+    contentDir = "content"
+    title = "Sourcentis"
+
+
+[menu]
+  [[menu.main]]
+    name = "Accueil"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Mercator"
+    url = "/mercator/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Deming"
+    url = "/deming/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 4
+
+  [[menu.main]]
+    name = "Support"
+    url = "/support/"
+    weight = 5
+
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 6
+
+[params]
+  defaultTheme = "light"
+  ShowReadingTime = false
+  ShowShareButtons = false
+  ShowPostNavLinks = false
+  ShowBreadCrumbs = false
+  ShowCodeCopyButtons = false
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  homeInfoParams = false
+
+  [params.assets]
+    customCSS = ["css/custom.css"]
