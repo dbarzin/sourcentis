@@ -16,7 +16,7 @@ draft: false
 - **Ease of Use**: An intuitive interface for rapid adoption.
 - **Efficiency**: Share information between your teams. - **Open source**: A transparent and customizable solution.
 
-[Download Mercator](https://github.com/dbarzin/mercator) | [Read the documentation](https://dbarzin.github.io/mercator/index.fr/)
+[Download Mercator](https://github.com/dbarzin/mercator?tab=readme-ov-file#mercator) | [Read the documentation](https://dbarzin.github.io/mercator/)
 
 ## Calculating compliance levels
 

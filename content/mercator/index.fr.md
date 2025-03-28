@@ -15,7 +15,7 @@ draft: false
 - **Efficacité** : Partagez les informations entre vos équipes.
 - **Open source** : Une solution transparente et personnalisable.
 
-[Télécharger Mercator](https://github.com/dbarzin/mercator) | [Lire la documentation](https://dbarzin.github.io/mercator/index.fr/)
+[Télécharger Mercator](https://github.com/dbarzin/mercator/blob/master/README.fr.md) | [Lire la documentation](https://dbarzin.github.io/mercator/index.fr/)
 
 ## Calcul des niveaux de conformité
 

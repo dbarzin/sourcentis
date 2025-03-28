@@ -1,6 +1,6 @@
 # Sourcentis Website
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
 [![Built with Hugo](https://img.shields.io/badge/Hugo-FF4088?logo=hugo&logoColor=white)](https://gohugo.io)
 [![Live Website](https://img.shields.io/website?url=https%3A%2F%2Fwww.sourcentis.com)](https://www.sourcentis.com)
 
@@ -22,3 +22,10 @@
 - **Hosting**: [OWH](https://www.ovhcloud.com)
 - **CI/CD**: GitHub Actions
 - **DNS**: [OWH]
+
+## Install
+
+
+## Serve
+
+    hugo server -D

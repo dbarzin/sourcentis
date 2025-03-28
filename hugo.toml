@@ -75,3 +75,4 @@ disableHugoGeneratorInject = true  # Optionnel : masque la version Hugo
 
   [params.assets]
     customCSS = ["css/custom.css"]
+    favicon = 'favicon-32x32.png'
