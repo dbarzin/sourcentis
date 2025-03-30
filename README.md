@@ -25,6 +25,7 @@
 
 ## Install
 
+git clone
 
 ## Serve
 

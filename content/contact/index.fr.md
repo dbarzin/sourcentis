@@ -7,12 +7,9 @@ draft: false
 
 ## 📬 Contactez nous directement
 
-### 📨 Email professionnel : {{<secure_email user="info" domain="sourcentis.com"/>}}
+### 📨 Email professionnel : {{< email encoded=":?7@oD@FC46?E:D]4@>" >}}
 
-**Heures de réponse** :  
-🕒 Lundi au vendredi - 9h à 17h  
-
-### 📋 Pour une réponse rapide, merci d'indiquer :  
+📋 Pour une réponse rapide, merci d'indiquer :  
 
 - L'objet de votre demande  
 - Vos coordonnées  

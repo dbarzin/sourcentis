@@ -1,42 +1,24 @@
-
-function initSecureEmails() {
-  const emailLinks = document.querySelectorAll('a.secure-email');
-
-  if (emailLinks.length === 0) {
-    return;
-  }
-
-  emailLinks.forEach(el => {
-    el.addEventListener('click', function(e) {
-      e.preventDefault();
-
-      try {
-        const user = atob(this.dataset.user);
-        const domain = atob(this.dataset.domain);
-
-        // Validation renforcée
-        if (!user || !domain || /[@<>]/.test(user + domain)) {
-          console.error('Email invalide décodé');
-          return;
-        }
-
-        window.location.href = `mailto:${user}@${domain}`;
-      } catch (error) {
-        console.error('Erreur de décodage:', error);
-        // Fallback pour les utilisateurs
-        this.textContent = '[Cliquez pour copier]';
-        this.onclick = () => {
-          navigator.clipboard.writeText('contact@exemple.com');
-          this.textContent = 'Email copié!';
-        };
-      }
-    });
+function rot(str, rotValue) {
+  return str.replace(/[!-~]/g, function(char) {
+    const start = 33;
+    const end = 126;
+    const range = end - start + 1;
+    const code = char.charCodeAt(0);
+    const shifted = ((code - start + parseInt(rotValue)) % range + range) % range + start;
+    return String.fromCharCode(shifted);
   });
 }
 
-// Deux méthodes pour s'assurer que le DOM est chargé
-if (document.readyState !== 'loading') {
-  initSecureEmails();
-} else {
-  document.addEventListener('DOMContentLoaded', initSecureEmails);
-}
+document.addEventListener("DOMContentLoaded", function() {
+  document.querySelectorAll('.rot-email').forEach(function(el) {
+    const rotValue = el.getAttribute('data-rot') || "13";
+    const encoded = el.getAttribute('data-encoded');
+    if (encoded) {
+      const decoded = rot(encoded, -parseInt(rotValue));
+      const a = document.createElement('a');
+      a.href = "mailto:" + decoded;
+      a.textContent = decoded;
+      el.replaceWith(a);
+    }
+  });
+});

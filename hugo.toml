@@ -72,6 +72,13 @@ disableHugoGeneratorInject = true  # Optionnel : masque la version Hugo
   ShowRssButtonInSectionTermList = true
   homeInfoParams = false
 
+  [params.footer]
+    show_copyright = true
+    custom_text = "Solution innovante pour vos besoins"
+    columns = [
+      { title = "Entreprise", links = ["À propos", "Carrières"] },
+      { title = "Ressources", links = ["Blog", "Documentation"] }
+    ]
 
   [params.assets]
     customCSS = ["css/custom.css"]
