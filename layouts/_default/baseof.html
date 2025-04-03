@@ -6,6 +6,12 @@
 <html lang="{{ site.Language }}" dir="{{ .Language.LanguageDirection | default "auto" }}">
 
 <head>
+<meta charset="UTF-8">
+<meta property="og:title" content="{{ .Title }}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:image" content="{{ .Params.og_image | default "/images/sourcentis.png" | absURL }}">
+<meta property="og:description" content="{{ .Params.description | default .Site.Params.description }}">
     {{- partial "head.html" . }}
 
     {{ $js := resources.Get "js/email.js" | minify | fingerprint }}

@@ -1,8 +1,11 @@
 ---
 title: "Deming"
-date: 2024-01-01
+date: 2025-01-01
 layout: "single"
 draft: false
+keywords: "Deming ISMS ISO 27001"
+og_title: "Deming - Open Source Information Management System"
+og_image: "/images/deming.png"
 ---
 
 

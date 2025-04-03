@@ -3,6 +3,9 @@ title: "Accueil"
 date: 2025-01-01
 layout: "single"
 draft: false
+keywords: "Sourcentis Open Source Deming Mercator"
+og_title: "Sourcentis - Des solutions Open Source Innovantes !"
+og_image: "/images/sourcentis.png"
 ---
 
 

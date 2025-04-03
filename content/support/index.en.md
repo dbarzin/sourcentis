@@ -2,6 +2,8 @@
 title: "Support"
 date: 2025-01-01
 layout: "single"
+og_title: "Sourcentis Support"
+og_image: "/images/sourcentis.png"
 ---
 
 

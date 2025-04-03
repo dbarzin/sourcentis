@@ -3,6 +3,9 @@ title: "Mercator"
 date: 2025-01-01
 layout: "single"
 draft: false
+keywords: "Mercator mapping information system ANSSI"
+og_title: "Mercator - Mapping the information system"
+og_image: "/images/mercator.png"
 ---
 
 

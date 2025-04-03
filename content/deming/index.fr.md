@@ -1,8 +1,11 @@
 ---
 title: "Deming"
-date: 2024-01-01
+date: 2025-01-01
 layout: "single"
 draft: false
+keywords: "Sourcentis Deming ISMS ISO 27001"
+og_title: "Deming - Système de Management de la Sécurité de l'Information Open Source"
+og_image: "/images/deming.png"
 ---
 
 
