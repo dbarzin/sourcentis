@@ -154,7 +154,7 @@ a.secure-email.revealed .email-tooltip {
 @media (max-width: 768px) {
   /* Réduction de la hauteur du banner */
   body::before {
-    height: 12rem;
+    height: 14rem;
     background-position: center top;
   }
 
@@ -178,7 +178,7 @@ a.secure-email.revealed .email-tooltip {
 
   /* Taille de texte plus confortable */
   .main {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     padding: 0 1rem;
   }
 

@@ -1,6 +1,6 @@
 ---
 title: "Mercator"
-date: 2025-01-01
+date: 2025-04-06
 layout: "single"
 draft: false
 keywords: "Mercator cartographie système information ANSSI"
