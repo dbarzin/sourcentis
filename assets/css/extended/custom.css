@@ -150,3 +150,46 @@ a.secure-email.revealed .email-tooltip {
 }
 
 /************************************************/
+
+@media (max-width: 768px) {
+  /* Réduction de la hauteur du banner */
+  body::before {
+    height: 12rem;
+    background-position: center top;
+  }
+
+  /* Réduction de la taille du titre */
+  .banniere-titre .titre {
+    font-size: 3rem;
+    line-height: 1.2;
+    margin-top: 0.5rem;
+  }
+
+  /* Réduction de la taille du sous-titre */
+  .banniere-titre .sous-titre {
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
+  }
+
+  /* Marge au-dessus du contenu réduite */
+  main.content {
+    margin-top: 200px;
+  }
+
+  /* Taille de texte plus confortable */
+  .main {
+    font-size: 1.1rem;
+    padding: 0 1rem;
+  }
+
+  /* Réduction des espaces dans les tableaux */
+  table {
+    border-spacing: 1rem 0;
+  }
+
+  /* Améliore le comportement des cellules sur petits écrans */
+  th, td {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
+}
