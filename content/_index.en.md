@@ -1,10 +1,11 @@
 ---
-title: "Welcome"
 date: 2025-04-06
 layout: "single"
 draft: false
-keywords: "Sourcentis Open Source Deming Mercator"
-og_title: "Sourcentis - Innovative Open Source Solutions !"
+title: "Welcome"
+description: "Mercator and Deming, information system mapping and compliance"
+keywords: "Sourcentis Open Source Deming Mercator ISMS 27001"
+og_title: "Sourcentis - Innovative open source solutions!"
 og_image: "/images/sourcentis.png"
 ---
 

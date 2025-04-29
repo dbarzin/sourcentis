@@ -1,9 +1,10 @@
 ---
-title: "Accueil"
 date: 2025-04-06
 layout: "single"
 draft: false
-keywords: "Sourcentis Open Source Deming Mercator"
+title: "Accueil"
+description: "Mercator et Deming, la cartographie et la conformité du système d'information"
+keywords: "Sourcentis Open Source Deming Mercator SMSI 27001"
 og_title: "Sourcentis - Des solutions Open Source Innovantes !"
 og_image: "/images/sourcentis.png"
 ---

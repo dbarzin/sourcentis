@@ -37,5 +37,5 @@ og_image: "/images/deming.png"
 
 |   |   |   |   |   |
 |---|---|---|---|---|
-| Projet du mois d'octobre 2024 | African Cybersecurity Resource Center – 2024 | Hack.lu 2023 | |
-| [{{< img src="/images/Project-of-the-MONTH-OCT2024.avif" width="11em" >}}](https://www.ow2.org/view/OW2-Project-of-the-Month/October-2024Deming) | [{{< img src="/images/acrc.jpeg" width="11em" >}}](https://www.youtube.com/watch?v=EXI0d9aYHPI) | [{{< img src="/images/hacklu.png" width="11em" >}}](https://www.youtube.com/watch?v=AiK8NLsZkz8) |  |
+| Projet du mois d'octobre 2024 | Linux  Pratique 148 | African Cybersecurity Resource Center – 2024 | Hack.lu 2023 | |
+| [{{< img src="/images/Project-of-the-MONTH-OCT2024.avif" width="11em" >}}](https://www.ow2.org/view/OW2-Project-of-the-Month/October-2024Deming) | [{{< img src="/images/LinuxPratique148.jpg" width="11em" >}}](https://connect.ed-diamond.com/linux-pratique/lp-148) | [{{< img src="/images/acrc.jpeg" width="11em" >}}](https://www.youtube.com/watch?v=EXI0d9aYHPI) | [{{< img src="/images/hacklu.png" width="11em" >}}](https://www.youtube.com/watch?v=AiK8NLsZkz8) |  |

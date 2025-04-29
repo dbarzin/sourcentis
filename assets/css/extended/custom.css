@@ -68,13 +68,6 @@ main.content {
 
 }
 
-@media (min-width: 1200px) {
-  main {
-    max-width: 1200px;
-  }
-}
-
-
 /************************************************************/
 /* Supprime les bordures sur thead et td */
 
