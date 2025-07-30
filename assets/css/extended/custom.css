@@ -79,6 +79,7 @@ table thead th {
 /* Supprime la bordure haute du tableau */
 table td {
   border-bottom: none !important;
+  vertical-align: middle;
 }
 
 /* debug

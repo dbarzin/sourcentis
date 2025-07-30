@@ -33,6 +33,12 @@ og_image: "/images/deming.png"
 |----|----|
 | Planifiez des contrôles réguliers, assignez des responsables et définissez des échéances avec une précision optimale, tout en assurant une traçabilité complète des actions. Grâce à une interface intuitive, organisez vos activités de manière proactive, suivez leur avancement en temps réel et identifiez les éventuels retards ou écarts. Cette gestion structurée permet de garantir le respect des obligations réglementaires, d’optimiser la charge de travail des équipes et de renforcer l’efficacité de votre SMSI. Avec des rappels automatisés et des historiques détaillés, assurez une transparence totale et une amélioration continue de vos processus. | {{< img src="/images/calendar.png" width="140em" >}} |
 
+## Référentiels
+
+|    |    |
+|----|----|
+| {{< img src="/images/referentials.png" width="140em" >}} | Deming prend en charge plusieurs référentiels de conformité, notamment ISO 27001, DORA, NIS2, HDS, PCI-DSS, et bien d'autres. L’application a été conçue pour s’adapter facilement à vos besoins : l’ajout d’un nouveau référentiel se fait simplement par l’importation d’un fichier Excel structuré, sans nécessiter de développement. Cette flexibilité permet de modéliser et de suivre votre conformité sur mesure, quelle que soit votre réglementation ou norme sectorielle. |
+
 # Références
 
 |   |   |   |   |   |

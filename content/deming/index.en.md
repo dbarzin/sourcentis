@@ -33,6 +33,14 @@ og_image: "/images/deming.png"
 |----|----|
 | Schedule regular inspections, assign managers, and set deadlines with optimal precision, while ensuring complete traceability of actions. Thanks to an intuitive interface, proactively organize your activities, track their progress in real time, and identify potential delays or deviations. This structured management helps ensure compliance with regulatory obligations, optimize team workloads, and enhance the effectiveness of your ISMS. With automated reminders and detailed history, ensure complete transparency and continuous improvement of your processes. | {{< img src="/images/calendar.png" width="140em" >}} |
 
+
+## Referentials
+
+|    |    |
+|----|----|
+| {{< img src="/images/referentials.png" width="140em" >}} | Deming supports multiple compliance frameworks, including ISO 27001, DORA, NIS2, HDS, PCI-DSS, and more. The application is designed to easily adapt to your needs: adding a new framework is as simple as importing a structured Excel file — no development required. This flexibility allows you to model and track your custom compliance, regardless of your specific regulation or industry standard. |
+
+
 # References
 
 | | | | | |
