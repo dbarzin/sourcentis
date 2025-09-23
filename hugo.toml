@@ -1,6 +1,6 @@
 baseURL = "https://www.sourcentis.com/"
 languageCode = "fr-fr"  # Format ISO 639-1 + ISO 3166-2
-title = "Sourcentis"
+title = "Sourcentis | Mercator & Deming - cartographie et conformité du SI"
 theme = "PaperMod"
 
 # Optimisation SEO

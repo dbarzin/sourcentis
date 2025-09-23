@@ -1,16 +1,15 @@
 ---
-date: 2025-04-06
+date: 2025-08-30
 layout: "single"
 draft: false
 title: "Accueil"
 description: "Mercator et Deming, la cartographie et la conformité du système d'information"
-keywords: "Sourcentis Open Source Deming Mercator SMSI 27001"
+keywords: "Sourcentis Open Source Deming Mercator SMSI 27001 HDS"
 og_title: "Sourcentis - Des solutions Open Source Innovantes !"
 og_image: "/images/sourcentis.png"
 ---
 
-
-Nous concevons des outils Open Source innovants pour simplifier la cartographie et renforcer la sécurité de votre Système d’Information. Découvrez Mercator et Deming : deux solutions simples et intuitives, spécialement conçues pour relever les défis complexes de la gestion et de la protection de vos infrastructures.
+Sourcentis propose des solutions Open Source pour la cybersécurité, utilisées par des hôpitaux, laboratoires, universités et banques. Nos outils Mercator et Deming vous aident à répondre aux exigences ISO 27001, ISO 27004 et NIS2.
 
 |    |    |
 |----|----|

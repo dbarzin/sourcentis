@@ -1,5 +1,5 @@
 ---
-date: 2025-04-06
+date: 2025-08-30
 layout: "single"
 draft: false
 title: "Welcome"
@@ -9,8 +9,7 @@ og_title: "Sourcentis - Innovative open source solutions!"
 og_image: "/images/sourcentis.png"
 ---
 
-
-We design innovative open source tools to simplify mapping and strengthen the security of your information system. Discover Mercator and Deming: two simple and intuitive solutions, specifically designed to address the complex challenges of managing and protecting your infrastructure.
+Sourcentis offers Open Source cybersecurity solutions used by hospitals, laboratories, universities, and banks. Our Mercator and Deming tools help you meet ISO 27001, ISO 27004, and NIS2 requirements.
 
 | | |
 |----|----|
