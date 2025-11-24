@@ -68,6 +68,10 @@ main.content {
 
 }
 
+.post-content a {
+      color:blue;
+  }
+
 /************************************************************/
 /* Supprime les bordures sur thead et td */
 
@@ -186,4 +190,6 @@ a.secure-email.revealed .email-tooltip {
     padding: 0.5rem;
     font-size: 0.9rem;
   }
+
+
 }
