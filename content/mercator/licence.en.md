@@ -6,10 +6,6 @@ draft: false
 keywords: "Mercator license open source GPL free commercial enterprise BPMN mappers"
 og_title: "Mercator - GPL License and Versions"
 og_image: "/images/mercator.png"
-menu:
-hand:
-parent: "mercator"
-weight: 4
 ---
 
 <div class="nav-links" style="display: flex; justify-content: space-between; margin: 0em 0; padding: 0.5em; background: var(--theme, #f8f9fa); border: 1px solid var(--border, #e0e0e0); border-radius: 8px;">

@@ -6,10 +6,6 @@ draft: false
 keywords: "Mercator tarifs prix Enterprise SLA support Standard Premium Platinum"
 og_title: "Mercator - Tarifs et Support Enterprise"
 og_image: "/images/mercator.png"
-menu:
-  main:
-    parent: "mercator"
-    weight: 5
 ---
 
 

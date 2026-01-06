@@ -2,7 +2,6 @@
 title: "Mercator - Accueil"
 date: 2025-12-28
 layout: "single"
-type: "page"
 draft: false
 keywords: "Mercator cartographie système information ANSSI open source"
 og_title: "Mercator - Cartographie du Système d'Information"

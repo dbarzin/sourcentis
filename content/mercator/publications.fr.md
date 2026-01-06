@@ -6,10 +6,6 @@ draft: false
 keywords: "Mercator publications témoignages conférences SSTIC FOSDEM"
 og_title: "Mercator - Publications et Témoignages"
 og_image: "/images/mercator.png"
-menu:
-  main:
-    parent: "mercator"
-    weight: 3
 ---
 
 <div class="nav-links" style="display: flex; justify-content: space-between; margin: 0em 0; padding: 0.5em; background: var(--theme, #f8f9fa); border: 1px solid var(--border, #e0e0e0); border-radius: 8px;">
