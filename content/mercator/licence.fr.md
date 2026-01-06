@@ -41,7 +41,7 @@ menu:
 
 Mercator existe en deux éditions pour répondre aux besoins de toutes les organisations : Open Source et Enterprise.
 
-L'édition Enterprise inclut deux fonctionnalités avancées **non disponibles** dans la version Open Source :
+L'édition Enterprise inclut deux fonctionnalités avancées **non disponibles** dans la version Open Source.
 
 ### 🎨 Modélisation de processus métiers avec BPMN 2.0
 

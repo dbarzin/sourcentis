@@ -37,7 +37,7 @@ weight: 4
 
 Mercator is available in two editions to meet the needs of all organizations: Open Source and Enterprise.
 
-The Enterprise edition includes two advanced features **not available** in the Open Source version:
+The Enterprise edition includes two advanced features **not available** in the Open Source version.
 
 ### 🎨 Business Process Modeling with BPMN 2.0
 
