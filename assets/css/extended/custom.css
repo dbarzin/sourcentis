@@ -16,10 +16,42 @@ body::before {
   z-index: 0;
 }
 
+/* Force le fond blanc pour le body */
+body {
+  background-color: white !important;
+}
+
+
+/* Force le fond blanc pour les articles */
+.post-single {
+  background-color: white !important;
+}
+
+/* Force le fond blanc pour le contenu des posts */
+.post-content {
+  background-color: white !important;
+}
+
+
+
+/* En mode sombre, applique un fond sombre cohérent */
+body.dark {
+  background-color: #1a1a1a !important;
+}
+
+body.dark .post-single,
+body.dark .post-content {
+  background-color: #1a1a1a !important;
+}
+
 html.dark body::before,
 body.dark::before {
-  background-color: #000000;
+  background-color: #1a1a1a;
   background-image: url("/images/banner-dark.png");
+}
+
+dark.a {
+    color: #000000;
 }
 
 header {
@@ -69,8 +101,12 @@ main.content {
 }
 
 .post-content a {
-      color:blue;
-  }
+      color: black;
+ }
+
+.dark .post-content a {
+  color: white;
+}
 
 /************************************************************/
 /* Supprime les bordures sur thead et td */
@@ -108,6 +144,95 @@ th, td {
     text-overflow: ellipsis;
 }
 
+/************************************************/
+/* Table de comparaison - Style de base */
+.comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2em 0;
+    font-size: 0.95em;
+}
+
+.comparison-table th,
+.comparison-table td {
+    padding: 12px;
+    border: 1px solid var(--border);
+    text-align: left;
+}
+
+.comparison-table th {
+    background-color: var(--code-bg);
+    font-weight: 600;
+    text-align: center;
+}
+
+.comparison-table th:first-child {
+    text-align: left;
+}
+
+/* Alternance des lignes */
+.comparison-table tbody tr:nth-child(odd) {
+    background-color: var(--theme);
+}
+
+.comparison-table tbody tr:nth-child(even) {
+    background-color: var(--entry);
+}
+
+/* Lignes mises en évidence (fonctionnalités exclusives) */
+.comparison-table .highlight-row {
+    background-color: rgba(255, 193, 7, 0.15) !important;
+}
+
+.dark .comparison-table .highlight-row {
+    background-color: rgba(255, 193, 7, 0.1) !important;
+}
+
+/* Cellule Enterprise exclusive */
+.comparison-table .enterprise-exclusive {
+    background-color: rgba(76, 175, 80, 0.15);
+}
+
+.dark .comparison-table .enterprise-exclusive {
+    background-color: rgba(76, 175, 80, 0.1);
+}
+
+/* Ligne de prix */
+.comparison-table .price-row {
+    background-color: rgba(33, 150, 243, 0.1) !important;
+    font-weight: 600;
+}
+
+.comparison-table .price-row td {
+    text-align: center;
+}
+
+.comparison-table .price-row td:first-child {
+    text-align: left;
+}
+
+/* Liens dans le tableau */
+.comparison-table a {
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.comparison-table a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .comparison-table {
+        font-size: 0.85em;
+    }
+
+    .comparison-table th,
+    .comparison-table td {
+        padding: 8px;
+    }
+}
 
 /************************************************/
 /* email link */

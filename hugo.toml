@@ -6,10 +6,16 @@ theme = "PaperMod"
 # Optimisation SEO
 enableRobotsTXT = true
 defaultContentLanguage = "fr"
+defaultContentLanguageInSubdir = false  # ← AJOUTEZ CETTE LIGNE
 disableHugoGeneratorInject = true  # Optionnel : masque la version Hugo
 
 [pagination]
   pagerSize = 10
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [languages]
   [languages.fr]
@@ -55,6 +61,7 @@ disableHugoGeneratorInject = true  # Optionnel : masque la version Hugo
     name = "Contact"
     url = "/contact/"
     weight = 6
+
 
 [params]
   env = "production"
