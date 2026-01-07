@@ -137,7 +137,7 @@ Mercator permet de visualiser votre système d'information selon différentes pe
 
 |    |    |
 |----|----|
-| {{< img src="/images/api2.png" width="200em" >}} | Intégrez Mercator dans votre écosystème existant grâce à une API REST complète et documentée. Synchronisez vos données avec vos outils ITSM, plateformes de gestion des risques ou solutions de monitoring. Automatisez vos workflows et maintenez la cohérence des informations à travers tous vos systèmes. |
+| {{< img src="/images/api.png" width="100em" >}} | Intégrez Mercator dans votre écosystème existant grâce à une API REST complète et documentée. Synchronisez vos données avec vos outils ITSM, plateformes de gestion des risques ou solutions de monitoring. <br> <br>Automatisez vos workflows et maintenez la cohérence des informations à travers tous vos systèmes. |
 
 **Cas d'usage de l'API :**
 - Import/export de données
