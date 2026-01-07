@@ -5,7 +5,7 @@ layout: "single"
 draft: false
 ---
 
-## 📬 Contactez nous directement
+## 📬 Contactez-nous directement
 
 ### 📨 Email professionnel : {{< email encoded=":?7@oD@FC46?E:D]4@>" >}}
 

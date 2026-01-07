@@ -23,7 +23,7 @@ We offer an annual support contract for rapid resolution of issues related to Me
 - Assistance with configuring and updating your tools.
 - Rapid assistance during business hours.
 
-Cost: Starting at €9,500/year (amount to be determined based on your needs).
+Cost: Starting at €4,500/year (amount to be determined based on your needs).
 
 ## Customization
 

@@ -24,7 +24,7 @@ Nous proposons un contrat de support annuel pour la résolution rapide de probl�
 - L’accompagnement dans la configuration et la mise à jour de vos outils.
 - Une assistance rapide en heures ouvrables.
 
-Coût : À partir de 9.500 €/an (montant à définir selon vos besoins).
+Coût : À partir de 4.500 €/an (montant à définir selon vos besoins).
 
 ## Personnalisation
 
