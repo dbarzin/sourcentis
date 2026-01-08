@@ -104,9 +104,13 @@ Chaque vue est interactive et permet de naviguer naturellement entre les différ
 
 ## 🔍 Exploration et analyse d'impact
 
+Naviguez intuitivement à travers votre cartographie et découvrez les relations entre vos actifs
+
 |    |    |
 |----|----|
-| {{< img src="/images/explore.png" width="50em" >}} | Naviguez intuitivement à travers votre cartographie et découvrez les relations entre vos actifs. Cliquez sur n'importe quel élément pour visualiser ses dépendances en amont et en aval. |
+| {{< img src="/images/explore.png" width="200em" >}} | Cliquez sur n'importe quel élément pour visualiser instantanément ses dépendances en amont et en aval. L'interface graphique interactive vous permet d'explorer votre système d'information de manière naturelle : partez d'une application métier pour identifier les serveurs qui l'hébergent, les bases de données qu'elle utilise, et les processus business qu'elle supporte. Ou suivez le chemin inverse : depuis un serveur physique, remontez jusqu'aux services métier qui en dépendent.<br><br>Chaque clic révèle un nouveau niveau de détail. Les relations sont matérialisées visuellement, vous permettant de comprendre d'un coup d'œil l'impact potentiel d'une panne, d'une mise à jour ou d'une modification de configuration. |
+
+ Cette navigation exploratoire transforme une documentation statique en une carte vivante de votre infrastructure, où chaque composant technique est directement relié à sa valeur métier.
 
 **Capacités d'analyse** :
 - **Analyse d'impact** : Simulez l'effet d'une panne ou d'un changement
@@ -120,9 +124,11 @@ Idéal pour la gestion des changements, l'analyse de risques et la planification
 
 ## 📈 Vue d'ensemble et tableaux de bord
 
+Obtenez une vue synthétique de votre système d'information grâce à des tableaux de bord dynamiques.
+
 |    |    |
 |----|----|
-| Obtenez une vision synthétique de votre système d'information grâce à des tableaux de bord dynamiques et personnalisables. | {{< img src="/images/repartition.png" width="200em" >}} |
+| Surveillez la santé et la composition de votre paysage informatique en un coup d'œil. Les tableaux de bord de Mercator fournissent des métriques et indicateurs clés adaptés à différents publics : les équipes techniques peuvent suivre l'inventaire de l'infrastructure et la répartition des technologies, tandis que la direction gagne en visibilité sur l'état du portefeuille applicatif et la couverture de conformité. | {{< img src="/images/repartition.png" width="200em" >}} |
 
 **Métriques en temps réel** :
 - Répartition des actifs par domaine et catégorie

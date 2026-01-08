@@ -104,25 +104,23 @@ Each view is interactive and allows natural navigation between different perspec
 
 ## 🔍 Exploration and Impact Analysis
 
+Navigate intuitively through your mapping and discover relationships between your assets
+
 |    |    |
 |----|----|
-| {{< img src="/images/explore.png" width="50em" >}} | Navigate intuitively through your mapping and discover relationships between your assets. Click on any element to visualize its upstream and downstream dependencies. |
+| {{< img src="/images/explore.png" width="200em" >}} | Click on any element to instantly visualize its upstream and downstream dependencies. The interactive graphical interface allows you to explore your information system naturally: start from a business application to identify the servers hosting it, the databases it uses, and the business processes it supports. Or follow the reverse path: from a physical server, trace back to the business services that depend on it.<br><br>Each click reveals a new level of detail. Relationships are visually materialized, allowing you to understand at a glance the potential impact of an outage, an update, or a configuration change. |
 
-**Analysis capabilities**:
-- **Impact analysis**: Simulate the effect of a failure or change
-- **SPOF detection**: Identify critical single points of failure
-- **Dependency chains**: Visualize multi-level relationships
-- **Critical paths**: Trace routes between business processes and infrastructure
-
-Ideal for change management, risk analysis, and business continuity planning.
+This exploratory navigation transforms static documentation into a living map of your infrastructure, where each technical component is directly linked to its business value.
 
 ---
 
 ## 📈 Overview and Dashboards
 
+Get a synthetic view of your information system through dynamic and customizable dashboards.
+
 |    |    |
 |----|----|
-| Get a synthetic view of your information system through dynamic and customizable dashboards. | {{< img src="/images/repartition.png" width="200em" >}} |
+| Monitor the health and composition of your IT landscape at a glance. Mercator's dashboards provide key metrics and indicators tailored to different audiences: technical teams can track infrastructure inventory and technology stack distribution, while management gains visibility into application portfolio status and compliance coverage. | {{< img src="/images/repartition.png" width="200em" >}} |
 
 **Real-time metrics**:
 - Asset distribution by domain and category
