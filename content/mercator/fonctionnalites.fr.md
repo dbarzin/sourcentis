@@ -106,7 +106,7 @@ Chaque vue est interactive et permet de naviguer naturellement entre les différ
 
 |    |    |
 |----|----|
-| {{< img src="/images/explore.png" width="200em" >}} | Naviguez intuitivement à travers votre cartographie et découvrez les relations entre vos actifs. Cliquez sur n'importe quel élément pour visualiser ses dépendances en amont et en aval. |
+| {{< img src="/images/explore.png" width="50em" >}} | Naviguez intuitivement à travers votre cartographie et découvrez les relations entre vos actifs. Cliquez sur n'importe quel élément pour visualiser ses dépendances en amont et en aval. |
 
 **Capacités d'analyse** :
 - **Analyse d'impact** : Simulez l'effet d'une panne ou d'un changement
@@ -172,7 +172,7 @@ Facilitez la communication avec vos équipes et la documentation de votre archit
 
 |    |    |
 |----|----|
-| {{< img src="/images/api.png" width="100em" >}} | Intégrez Mercator dans votre écosystème IT grâce à une API REST documentée et sécurisée. Automatisez les mises à jour, synchronisez avec vos outils existants (CMDB, ITSM, GRC). |
+| {{< img src="/images/api.png" width="50em" >}} | Intégrez Mercator dans votre écosystème IT grâce à une API REST documentée et sécurisée. Automatisez les mises à jour, synchronisez avec vos outils existants (CMDB, ITSM, GRC). |
 
 **Cas d'usage** :
 - Synchronisation bidirectionnelle avec ServiceNow, Jira, ou autres ITSM

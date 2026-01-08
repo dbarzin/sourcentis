@@ -106,7 +106,7 @@ Each view is interactive and allows natural navigation between different perspec
 
 |    |    |
 |----|----|
-| {{< img src="/images/explore.png" width="200em" >}} | Navigate intuitively through your mapping and discover relationships between your assets. Click on any element to visualize its upstream and downstream dependencies. |
+| {{< img src="/images/explore.png" width="50em" >}} | Navigate intuitively through your mapping and discover relationships between your assets. Click on any element to visualize its upstream and downstream dependencies. |
 
 **Analysis capabilities**:
 - **Impact analysis**: Simulate the effect of a failure or change
@@ -172,7 +172,7 @@ Facilitate communication with your teams and documentation of your architecture.
 
 |    |    |
 |----|----|
-| {{< img src="/images/api.png" width="100em" >}} | Integrate Mercator into your IT ecosystem with a documented and secure REST API. Automate updates, synchronize with your existing tools (CMDB, ITSM, GRC). |
+| {{< img src="/images/api.png" width="80em" >}} | Integrate Mercator into your IT ecosystem with a documented and secure REST API. Automate updates, synchronize with your existing tools (CMDB, ITSM, GRC). |
 
 **Use cases**:
 - Bidirectional synchronization with ServiceNow, Jira, or other ITSM
