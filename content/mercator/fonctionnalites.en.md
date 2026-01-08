@@ -1,302 +1,255 @@
 ---
-title: "Mercator - Main Features"
+title: "Mercator - Key Features"
 date: 2025-12-28
 layout: "single"
 draft: false
-keywords: "Mercator features mapping IS compliance ANSSI API"
+keywords: "Mercator features IT mapping BPMN processes compliance ANSSI API"
 og_title: "Mercator - Features and Capabilities"
 og_image: "/images/mercator.png"
 ---
 
 <div class="nav-links" style="display: flex; justify-content: space-between; margin: 0em 0; padding: 0.5em; background: var(--theme, #f8f9fa); border: 1px solid var(--border, #e0e0e0); border-radius: 8px;">
+
 <div style="text-align: left;">
-    <strong>← Previous</strong><br>
-    <a href="/en/mercator/presentation/">About Us</a>
+<strong>← Previous</strong><br>
+<a href="/en/mercator/presentation/">Overview</a>
 </div>
+
 <div style="text-align: center;">
-    <strong>Menu</strong><br>
-    <a href="/en/mercator/">Home</a> |
-    <a href="/en/mercator/presentation/">About Us</a> |
-    <a href="/en/mercator/fonctionnalites/">Features</a> |
-    <a href="/en/mercator/publications/">Publications</a> |
-    <a href="/en/mercator/licence/">License</a>
+<strong>Menu</strong><br>
+<a href="/en/mercator/">Home</a> |
+<a href="/en/mercator/presentation/">Overview</a> |
+<a href="/en/mercator/features/">Features</a> |
+<a href="/en/mercator/publications/">Publications</a> |
+<a href="/en/mercator/licence/">License</a>
 </div>
+
 <div style="text-align: right;">
-    <strong>Next →</strong><br>
-    <a href="/en/mercator/publications/">Publications</a>
+<strong>Next →</strong><br>
+<a href="/en/mercator/publications/">Publications</a>
 </div>
+
 </div>
 
 ---
 
-## 📊 Calculating Compliance Levels
+## 🎯 Unified Business-Technical Mapping with BPMN 2.0
 
-|    |    |
-|----|----|
-| {{< img src="/images/conform.png" width="200em" >}} | Automatically assess your maturity level according to ANSSI recommendations. Mercator analyzes your mapping and identifies gaps compared to best practices. Clear indicators and detailed dashboards allow you to quickly visualize areas for improvement and prioritize your action plans. |
+**New in 2026**: Mercator now integrates business process modeling using the **BPMN 2.0** (Business Process Model and Notation) standard, creating a unified mapping where your business processes are directly linked to your technical infrastructure.
 
-**Benefits:**
-
-- Automatic scoring based on ANSSI standards
-- Identification of gaps and action priorities
-- Monitoring of maturity evolution over time
-- Ready-to-use compliance reports
-
----
-
-## 🔍 Mapping Overview
-
-|    |    |
-|----|----|
-| Visualize the distribution of your assets by domain using dynamic and interactive graphs. This concise view provides an immediate understanding of your IT structure, asset density, and relative importance. Quickly identify over- or under-documented areas to optimize your management. | {{< img src="/images/repartition.png" width="200em" >}} |
-
-**Capabilities:**
-
-- Distribution charts by domain
-- Overall proportional view
-- Real-time statistics
-- Customizable filters and views
-
----
-
-## 🌐 Multi-view and perspectives
-
-Mercator allows you to visualize your information system from different perspectives.
-
-<div style="display: flex; gap: 2em; align-items: flex-start; margin: 1.5em 0;">
+<div style="display: flex; gap: 2em; align-items: flex-start; margin: 1.5em 0; flex-wrap: wrap;">
 <div style="flex: 0 0 40%; min-width: 300px;">
-<img src="/images/network.png" alt="Example of a network view in Mercator" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+{{< img src="/images/BPMN.png" width="100%" >}}
+</div>
+<div style="flex: 1; min-width: 300px;">
+
+**360° view of your organization**:
+- Model your business processes using the BPMN 2.0 standard notation
+- Link each task to the applications, servers, and infrastructure that support it
+- Identify the technical impact of a business process change
+- Assess the business impact of a technical incident
+
+**Strategic use cases**:
+- **Impact analysis**: A critical server goes down? Instantly visualize which business processes are affected
+- **Optimization**: Identify processes relying on obsolete or at-risk infrastructure
+- **NIS2 compliance**: Document essential processes and their technical dependencies
+- **Communication**: A common language between business teams, IT, and management
+
+*Enterprise version exclusive feature - [Learn more](/mercator/license/)*
 
 </div>
-<div style="flex: 1;">
-
-**Available Views**:
-
-- Ecosystem View
-- Application View
-- Logical Infrastructure View
-- Physical Infrastructure View
-
-- Physical Infrastructure View
-
-</div>
-
 </div>
 
 ---
 
-## ✏️ Creating Diagrams and Schemas
+## 🌐 Multi-view: Visualize Your IT from Every Angle
 
-|    |    |
-|----|----|
-| Easily create technical diagrams from your mapping data. Use drag and drop to compose architectural diagrams, network plans, or flowcharts. These visualizations facilitate communication with technical teams and the documentation of your infrastructure. | {{< img src="/images/schema.png" width="200em" >}} |
+Mercator allows you to explore your information system from five complementary perspectives, each tailored to a specific need.
 
-**Diagram Features:**
-- Intuitive drag-and-drop interface
-- Icon and symbol library
-- Export to image formats (PNG, SVG)
-- Diagrams synchronized with the mapping
-- Pre-configured templates
+<div style="display: flex; gap: 2em; align-items: flex-start; margin: 1.5em 0; flex-wrap: wrap;">
+<div style="flex: 0 0 40%; min-width: 300px;">
+{{< img src="/images/network.png" width="100%" >}}
+</div>
+<div style="flex: 1; min-width: 300px;">
 
----
+**Available views**:
+- **Ecosystem view**: Relationships with your suppliers, partners, and external entities
+- **Application view**: Application mapping and their interconnections
+- **Logical infrastructure view**: Network architecture, security zones, data flows
+- **Physical infrastructure view**: Datacenters, server rooms, hardware equipment
+- **Business process view**: Workflows and their technical support (Enterprise)
 
-## 🗺️ Interactive Exploration
+Each view is interactive and allows natural navigation between different perspectives to understand relationships and dependencies.
 
-|    |    |
-|----|----|
-| {{< img src="/images/explore.png" width="200em" >}} | Navigate intuitively through your map and discover the relationships between your assets. Visualize critical dependencies, identify single points of failure (SPOFs), and understand the potential impact of changes or incidents on your entire infrastructure. |
-
-**Key Features:**
-- Intuitive navigation between objects
-- Dependency visualization
-- Impact analysis
-- Identification of critical assets
+</div>
+</div>
 
 ---
 
-## 📄 Detailed and customizable reports
+## 📊 ANSSI Compliance and Maturity
 
 |    |    |
 |----|----|
-| Generate professional reports on all aspects of your information system: vendors, applications, servers, security requirements, and physical equipment. These ready-to-use documents facilitate communication with your teams and partners while meeting compliance and risk management requirements. | {{< img src="/images/report.png" width="200em" >}} |
+| {{< img src="/images/conform.png" width="200em" >}} | Automatically assess your maturity level according to ANSSI recommendations. Mercator analyzes your mapping and calculates a compliance score based on the completeness and quality of your data. |
 
-**Available Report Types:**
+**Key indicators**:
+- Maturity score by domain (governance, protection, defense, resilience)
+- Automatic identification of gaps and deficiencies
+- Prioritization of improvement actions
+- Tracking of evolution over time
 
-- Asset Inventory by Category
-- Third-Party Vendor and Dependency Analysis
-- Application and Interconnection Mapping
-- Security Measures Status
-- Audit and Compliance Reports
-
-## ✏️ Creating Diagrams and Schemas
-
-|    |    |
-|----|----|
-| Easily create technical diagrams from your mapping data. Use drag and drop to compose architectural diagrams, network plans, or flowcharts. These visualizations facilitate communication with technical teams and the documentation of your infrastructure. | {{< img src="/images/schema.png" width="200em" >}} |
-
-**Diagram Features:**
-- Intuitive drag-and-drop interface
-- Icon and symbol library
-- Export to image formats (PNG, SVG)
-- Diagrams synchronized with the mapping
-- Pre-configured templates
+**Ready-to-use reports** for audits and management reviews, compliant with regulatory requirements (NIS2, ISO 27001, HDS).
 
 ---
 
-## 🗺️ Interactive Exploration
+## 🔍 Exploration and Impact Analysis
 
 |    |    |
 |----|----|
-| {{< img src="/images/explore.png" width="200em" >}} | Navigate intuitively through your map and discover the relationships between your assets. Visualize critical dependencies, identify single points of failure (SPOFs), and understand the potential impact of changes or incidents on your entire infrastructure. |
+| {{< img src="/images/explore.png" width="200em" >}} | Navigate intuitively through your mapping and discover relationships between your assets. Click on any element to visualize its upstream and downstream dependencies. |
 
-**Key Features:**
-- Intuitive navigation between objects
-- Dependency visualization
-- Impact analysis
-- Identification of critical assets
+**Analysis capabilities**:
+- **Impact analysis**: Simulate the effect of a failure or change
+- **SPOF detection**: Identify critical single points of failure
+- **Dependency chains**: Visualize multi-level relationships
+- **Critical paths**: Trace routes between business processes and infrastructure
+
+Ideal for change management, risk analysis, and business continuity planning.
 
 ---
 
-## 📄 Detailed and customizable reports
+## 📈 Overview and Dashboards
 
 |    |    |
 |----|----|
-| Generate professional reports on all aspects of your information system: vendors, applications, servers, security requirements, and physical equipment. These ready-to-use documents facilitate communication with your teams and partners while meeting compliance and risk management requirements. | {{< img src="/images/report.png" width="200em" >}} |
+| Get a synthetic view of your information system through dynamic and customizable dashboards. | {{< img src="/images/repartition.png" width="200em" >}} |
 
-**Available Report Types:**
-- Asset Inventory by Category
-- Third-Party Vendor and Dependency Analysis
-- Application and Interconnection Mapping
-- Security Measures Status
-- Audit and Compliance Reports
+**Real-time metrics**:
+- Asset distribution by domain and category
+- Documentation and completeness rates
+- Fleet evolution and trends
+- Compliance and maturity indicators
 
-**Export Formats:**
-- PDF for presentation and archiving
-- Excel for data analysis and processing
-- CSV for integration with other tools
+**Interactive charts** allowing filtering, zooming, and data exploration according to your needs.
 
 ---
 
-## 🔌 REST API for Integration
+## ✏️ Technical Diagram Creation
 
 |    |    |
 |----|----|
-| {{< img src="/images/api2.png" width="200em" >}} | Integrate Mercator into your existing ecosystem with a comprehensive and documented REST API. Synchronize your data with your ITSM tools, risk management platforms, or monitoring solutions. Automate your workflows and maintain information consistency across all your systems. |
+| {{< img src="/images/schema.png" width="200em" >}} | Automatically generate professional technical diagrams or create them manually by drag-and-drop. Diagrams remain synchronized with your mapping. |
 
-**API Use Cases:**
+**Features**:
+- Intuitive drawing interface
+- Library of standard icons and symbols
+- Multi-format export (PNG, SVG, PDF)
+- Pre-configured templates (network architecture, application flows, infrastructure)
+- Customizable annotations and legends
 
-- Data import/export
-- Synchronization with CMDB
-- Integration with ticketing tools (Jira, ServiceNow)
-- Automation of updates
+Facilitate communication with your teams and documentation of your architecture.
+
+---
+
+## 📄 Professional Reports
+
+|    |    |
+|----|----|
+| Generate detailed and customizable reports on all aspects of your information system. Ready-to-use documents for audits, management committees, or technical documentation. | {{< img src="/images/report.png" width="150em" >}} |
+
+**Report types**:
+- Comprehensive inventory by asset category
+- Supplier analysis and third-party risks
+- Application mapping with dependencies
+- Security measures and compliance status
+- Business processes and their technical support (Enterprise)
+
+**Exports**: PDF, Excel, CSV for all types of use (presentation, analysis, integration).
+
+---
+
+## 🔌 Complete REST API
+
+|    |    |
+|----|----|
+| {{< img src="/images/api.png" width="100em" >}} | Integrate Mercator into your IT ecosystem with a documented and secure REST API. Automate updates, synchronize with your existing tools (CMDB, ITSM, GRC). |
+
+**Use cases**:
+- Bidirectional synchronization with ServiceNow, Jira, or other ITSM
+- Automatic import from Active Directory, VMware, Kubernetes
+- Export to risk management platforms
 - Development of custom extensions
 
-**Technical Specifications:**
-- OpenAPI/Swagger documentation
-- Secure authentication
-- Standard RESTful endpoints
-- JSON support
-- Configurable rate limiting
+**Documentation**: Interactive OpenAPI/Swagger, secure authentication, configurable rate limiting.
 
 ---
 
-## 📈 Dashboards and Analytics
+## 👥 Collaboration and Granular Rights Management
 
-Customizable dashboards provide a strategic view of your IT system:
+**Community version**:
+- Basic user and role management
+- Modification traceability
+- Comments and annotations
 
-- **Key Metrics:** Number of assets, documentation rate, progress
-- **Compliance Indicators:** Progress towards objectives
-- **Trend Analysis:** Evolution over time
-- **Alerts:** Notification of anomalies and non-conformities
+**Enterprise version - Advanced cartographer management**:
+
+Granular permission system allowing distribution of mapping responsibility across multiple teams while maintaining global consistency.
+
+**Capabilities**:
+- Custom cartographer roles by domain (network, application, security, processes)
+- Detailed permissions by object type and action (read, create, modify, delete)
+- Multi-level validation workflows before publication
+- Delegation of responsibilities while respecting the principle of least privilege
+
+**Ideal for**: Multi-site organizations, cross-team collaboration, distributed responsibilities.
 
 ---
 
 ## 🔄 Data Import and Export
 
-Mercator facilitates data exchange with other systems :
+Mercator facilitates data exchange with your ecosystem:
 
-**Import**
-- CSV import for bulk data loading
-- Connectors for external data sources
-- Customizable import scripts
+**Import**:
+- CSV import for massive initial loading
+- Connectors for external sources (AD, CMDB, network scanners)
+- Customizable scripts for proprietary formats
 
-**Export**
-- Full or partial map export
-- Multiple formats (CSV, JSON, XML)
-- Automation via API
-
----
-
-## 👥 Collaboration and User Management
-
-**Access Management**
-- Configurable roles and permissions
-- Granular access by domain
-- Change tracking
-
-**Collaboration**
-- Comments and annotations
-- Validation workflow
-- Change history
+**Export**:
+- Complete or filtered export of the mapping
+- Multiple formats: CSV, JSON, XML, Excel
+- Automation via API and scheduling
 
 ---
 
-## 🌟 Exclusive Enterprise Features
+## ⚡ Performance and Scalability
 
-Mercator also offers an **Enterprise version** with two advanced features for organizations with complex needs:
-
-### 🎨 BPMN 2.0 Process Modeling
-
-|    |    |
-|----|----|
-| {{< img src="/images/BPMN.png" width="40em" >}} | <p>Draw and model your business processes with **BPMN 2.0** (Business Process Model and Notation), the international standard for process modeling.</p><p>The processes, tasks, and actors in the process map are directly linked to the applications, servers, and networks of the information system, thus creating a unified business-technical view.</p> |
-
-**Capabilities**:
-- Interactive process diagrams
-- Events, tasks, branches, and connectors
-- Alignment with international standards
-- Integration with existing process maps
-
-**Ideal for**: Documenting business workflows, identifying areas for improvement, and communicating with business teams.
-
-### 👥 Granular Mapper Management
-
-Advanced **role-based permissions** system for distributing mapping responsibilities across multiple teams.
-
-**Capabilities**:
-- Custom mapper roles
-- Granular permissions by object type
-- Delegation by domain (network, applications, infrastructure)
-- Multi-level approval workflows
-
-**Ideal for**: Large, multi-team organizations, distributed collaboration, and adherence to the principle of least privilege.
-
----
-
-## Performance and Scalability
-
-- **Optimized** to manage IT systems of any size
-- **Performance** maintained even with thousands of objects
-- **Modular architecture** enabling scalability
-- **Flexible deployment**: on-premises or cloud
+- Optimized architecture to handle thousands of objects without degradation
+- High-performance search engine with indexing
+- Real-time compliance and impact calculations
+- Flexible deployment: on-premise, private cloud, or containers
+- Horizontal scalability for large organizations
 
 ---
 
 <div class="nav-links" style="display: flex; justify-content: space-between; margin: 0em 0; padding: 0.5em; background: var(--theme, #f8f9fa); border: 1px solid var(--border, #e0e0e0); border-radius: 8px;">
+
 <div style="text-align: left;">
 <strong>← Previous</strong><br>
-<a href="/en/mercator/presentation/">Presentation</a>
+<a href="/en/mercator/presentation/">Overview</a>
 </div>
+
 <div style="text-align: center;">
 <strong>Menu</strong><br>
 <a href="/en/mercator/">Home</a> |
-<a href="/en/mercator/presentation/">Presentation</a> |
-<a href="/en/mercator/fonctionnalites/">Features</a> |
+<a href="/en/mercator/presentation/">Overview</a> |
+<a href="/en/mercator/features/">Features</a> |
 <a href="/en/mercator/publications/">Publications</a> |
-<a href="/en/mercator/licence/">License</a>
+<a href="/en/mercator/license/">License</a>
 </div>
+
 <div style="text-align: right;">
 <strong>Next →</strong><br>
 <a href="/en/mercator/publications/">Publications</a>
 </div>
+
 </div>

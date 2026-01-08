@@ -3,7 +3,7 @@ title: "Mercator - Fonctionnalités principales"
 date: 2025-12-28
 layout: "single"
 draft: false
-keywords: "Mercator fonctionnalités cartographie SI conformité ANSSI API"
+keywords: "Mercator fonctionnalités cartographie SI BPMN processus conformité ANSSI API"
 og_title: "Mercator - Fonctionnalités et Capacités"
 og_image: "/images/mercator.png"
 ---
@@ -33,208 +33,201 @@ og_image: "/images/mercator.png"
 
 ---
 
-## 📊 Calcul des niveaux de conformité
+## 🎯 Cartographie unifiée métier-technique avec BPMN 2.0
 
-|    |    |
-|----|----|
-| {{< img src="/images/conform.png" width="200em" >}} | Évaluez automatiquement votre niveau de maturité selon les recommandations de l'ANSSI. Mercator analyse votre cartographie et identifie les écarts par rapport aux bonnes pratiques. Des indicateurs clairs et des tableaux de bord détaillés vous permettent de visualiser rapidement les domaines à renforcer et de prioriser vos actions d'amélioration. |
+**Nouveauté 2026** : Mercator intègre désormais la modélisation de processus métiers selon la norme **BPMN 2.0** (Business Process Model and Notation), créant une cartographie unifiée où vos processus métiers sont directement reliés à votre infrastructure technique.
 
-**Avantages :**
-- Scoring automatique basé sur les référentiels ANSSI
-- Identification des lacunes et priorités d'action
-- Suivi de l'évolution de la maturité dans le temps
-- Rapports de conformité prêts à l'emploi
-
----
-
-## 🔍 Vue d'ensemble de la cartographie
-
-|    |    |
-|----|----|
-| Visualisez la répartition de vos actifs par domaine grâce à des graphiques dynamiques et interactifs. Cette vue synthétique offre une compréhension immédiate de la structure de votre SI, de la densité de vos actifs et de leur importance relative. Identifiez rapidement les zones surchargées ou sous-documentées pour optimiser votre gestion. | {{< img src="/images/repartition.png" width="200em" >}} |
-
-**Capacités :**
-- Graphiques de répartition par domaine
-- Vue proportionnelle globale
-- Statistiques en temps réel
-- Filtres et vues personnalisables
-
----
-
-
-## 🌐 Multi-vue et perspectives
-
-Mercator permet de visualiser votre système d'information selon différentes perspectives.
-
-<div style="display: flex; gap: 2em; align-items: flex-start; margin: 1.5em 0;">
+<div style="display: flex; gap: 2em; align-items: flex-start; margin: 1.5em 0; flex-wrap: wrap;">
 <div style="flex: 0 0 40%; min-width: 300px;">
-<img src="/images/network.png" alt="Exemple de vue réseau dans Mercator" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+{{< img src="/images/BPMN.png" width="100%" >}}
 </div>
-<div style="flex: 1;">
+<div style="flex: 1; min-width: 300px;">
+
+**Vision à 360° de votre organisation** :
+- Modélisez vos processus métiers avec la notation standard BPMN 2.0
+- Reliez chaque tâche aux applications, serveurs et infrastructures qui la supportent
+- Identifiez l'impact technique d'un changement de processus métier
+- Évaluez l'impact métier d'un incident technique
+
+**Cas d'usage stratégiques** :
+- **Analyse d'impact** : Un serveur critique tombe en panne ? Visualisez instantanément quels processus métiers sont affectés
+- **Optimisation** : Identifiez les processus qui s'appuient sur des infrastructures obsolètes ou à risque
+- **Conformité NIS2** : Documentez les processus essentiels et leurs dépendances techniques
+- **Communication** : Un langage commun entre équipes métiers, IT et direction
+
+*Fonctionnalité exclusive de la version Enterprise - [En savoir plus](/mercator/licence/)*
+
+</div>
+</div>
+
+---
+
+## 🌐 Multi-vues : Visualisez votre SI sous tous les angles
+
+Mercator permet d'explorer votre système d'information selon cinq perspectives complémentaires, chacune adaptée à un besoin spécifique.
+
+<div style="display: flex; gap: 2em; align-items: flex-start; margin: 1.5em 0; flex-wrap: wrap;">
+<div style="flex: 0 0 40%; min-width: 300px;">
+{{< img src="/images/network.png" width="100%" >}}
+</div>
+<div style="flex: 1; min-width: 300px;">
 
 **Les vues disponibles** :
-- Vue de l'écosystème
-- Vue des applications
-- Vue de l'infrastructure logique
-- Vue de l'infrastructure physique
-- Vue de l'infrastructure physique
+- **Vue écosystème** : Relations avec vos fournisseurs, partenaires et entités externes
+- **Vue applications** : Cartographie applicative et leurs interconnexions
+- **Vue infrastructure logique** : Architecture réseau, zones de sécurité, flux de données
+- **Vue infrastructure physique** : Datacenters, salles serveurs, équipements matériels
+- **Vue processus métiers** : Workflows et leur support technique (Enterprise)
+
+Chaque vue est interactive et permet de naviguer naturellement entre les différentes perspectives pour comprendre les relations et dépendances.
 
 </div>
 </div>
 
 ---
 
-## ✏️ Création de schémas et diagrammes
+## 📊 Conformité et maturité ANSSI
 
 |    |    |
 |----|----|
-| Créez facilement des diagrammes techniques à partir des données de votre cartographie. Par glisser-déposer, composez des schémas d'architecture, des plans de réseau ou des diagrammes de flux. Ces visualisations facilitent la communication avec les équipes techniques et la documentation de votre infrastructure. | {{< img src="/images/schema.png" width="200em" >}} |
+| {{< img src="/images/conform.png" width="200em" >}} | Évaluez automatiquement votre niveau de maturité selon les recommandations de l'ANSSI. Mercator analyse votre cartographie et calcule un score de conformité basé sur la complétude et la qualité de vos données. |
 
-**Fonctionnalités de diagrammes :**
-- Interface glisser-déposer intuitive
-- Bibliothèque d'icônes et symboles
-- Export en formats image (PNG, SVG)
-- Schémas synchronisés avec la cartographie
-- Templates pré-configurés
+**Indicateurs clés** :
+- Score de maturité par domaine (gouvernance, protection, défense, résilience)
+- Identification automatique des écarts et lacunes
+- Priorisation des actions d'amélioration
+- Suivi de l'évolution dans le temps
+
+**Rapports prêts à l'emploi** pour audits et revues de direction, conformes aux exigences réglementaires (NIS2, ISO 27001, HDS).
 
 ---
 
-## 🗺️ Exploration interactive
+## 🔍 Exploration et analyse d'impact
 
 |    |    |
 |----|----|
-| {{< img src="/images/explore.png" width="200em" >}} | Naviguez intuitivement à travers votre cartographie et découvrez les relations entre vos actifs. Visualisez les dépendances critiques, identifiez les points de défaillance uniques (SPOF) et comprenez l'impact potentiel des changements ou incidents sur l'ensemble de votre infrastructure. |
+| {{< img src="/images/explore.png" width="200em" >}} | Naviguez intuitivement à travers votre cartographie et découvrez les relations entre vos actifs. Cliquez sur n'importe quel élément pour visualiser ses dépendances en amont et en aval. |
 
-**Points forts :**
-- Navigation intuitive entre les objets
-- Visualisation des dépendances
-- Analyse d'impact
-- Identification des actifs critiques
+**Capacités d'analyse** :
+- **Analyse d'impact** : Simulez l'effet d'une panne ou d'un changement
+- **Détection des SPOF** : Identifiez les points de défaillance uniques critiques
+- **Chaînes de dépendances** : Visualisez les relations multi-niveaux
+- **Chemins critiques** : Tracez les parcours entre processus métiers et infrastructure
+
+Idéal pour la gestion des changements, l'analyse de risques et la planification de la continuité d'activité.
 
 ---
 
-## 📄 Rapports détaillés et personnalisables
+## 📈 Vue d'ensemble et tableaux de bord
 
 |    |    |
 |----|----|
-| Générez des rapports professionnels sur tous les aspects de votre système d'information : fournisseurs, applications, serveurs, exigences de sécurité, équipements physiques. Ces documents prêts à l'emploi facilitent la communication avec vos équipes et partenaires tout en répondant aux exigences de conformité et de gestion des risques. | {{< img src="/images/report.png" width="200em" >}} |
+| Obtenez une vision synthétique de votre système d'information grâce à des tableaux de bord dynamiques et personnalisables. | {{< img src="/images/repartition.png" width="200em" >}} |
 
-**Types de rapports disponibles :**
-- Inventaire des actifs par catégorie
-- Analyse des fournisseurs et dépendances tierces
-- Cartographie des applications et leurs interconnexions
-- État des mesures de sécurité
-- Rapports d'audit et de conformité
+**Métriques en temps réel** :
+- Répartition des actifs par domaine et catégorie
+- Taux de documentation et de complétude
+- Évolution du parc et tendances
+- Indicateurs de conformité et maturité
 
-**Formats d'export :**
-- PDF pour présentation et archivage
-- Excel pour analyse et traitement de données
-- CSV pour intégration avec d'autres outils
+**Graphiques interactifs** permettant de filtrer, zoomer et explorer les données selon vos besoins.
 
 ---
 
-## 🔌 API REST pour l'intégration
+## ✏️ Création de schémas techniques
 
 |    |    |
 |----|----|
-| {{< img src="/images/api.png" width="100em" >}} | Intégrez Mercator dans votre écosystème existant grâce à une API REST complète et documentée. Synchronisez vos données avec vos outils ITSM, plateformes de gestion des risques ou solutions de monitoring. <br> <br>Automatisez vos workflows et maintenez la cohérence des informations à travers tous vos systèmes. |
+| {{< img src="/images/schema.png" width="200em" >}} | Générez automatiquement des diagrammes techniques professionnels ou créez-les manuellement par glisser-déposer. Les schémas restent synchronisés avec votre cartographie. |
 
-**Cas d'usage de l'API :**
-- Import/export de données
-- Synchronisation avec CMDB
-- Intégration avec outils de ticketing (Jira, ServiceNow)
-- Automatisation des mises à jour
+**Fonctionnalités** :
+- Interface intuitive de dessin
+- Bibliothèque d'icônes et symboles standards
+- Export multi-formats (PNG, SVG, PDF)
+- Templates pré-configurés (architecture réseau, flux applicatifs, infrastructure)
+- Annotations et légendes personnalisables
+
+Facilitez la communication avec vos équipes et la documentation de votre architecture.
+
+---
+
+## 📄 Rapports professionnels
+
+|    |    |
+|----|----|
+| Générez des rapports détaillés et personnalisables sur tous les aspects de votre système d'information. Documents prêts pour audits, comités de direction ou documentation technique. | {{< img src="/images/report.png" width="150em" >}} |
+
+**Types de rapports** :
+- Inventaire exhaustif par catégorie d'actifs
+- Analyse des fournisseurs et risques tiers
+- Cartographie applicative avec dépendances
+- État des mesures de sécurité et conformité
+- Processus métiers et leur support technique (Enterprise)
+
+**Exports** : PDF, Excel, CSV pour tous types d'usage (présentation, analyse, intégration).
+
+---
+
+## 🔌 API REST complète
+
+|    |    |
+|----|----|
+| {{< img src="/images/api.png" width="100em" >}} | Intégrez Mercator dans votre écosystème IT grâce à une API REST documentée et sécurisée. Automatisez les mises à jour, synchronisez avec vos outils existants (CMDB, ITSM, GRC). |
+
+**Cas d'usage** :
+- Synchronisation bidirectionnelle avec ServiceNow, Jira, ou autres ITSM
+- Import automatique depuis Active Directory, VMware, Kubernetes
+- Export vers plateformes de gestion des risques
 - Développement d'extensions personnalisées
 
-**Caractéristiques techniques :**
-- Documentation OpenAPI/Swagger
-- Authentification sécurisée
-- Endpoints RESTful standard
-- Support JSON
-- Rate limiting configurable
+**Documentation** OpenAPI/Swagger interactive, authentification sécurisée, rate limiting configurable.
 
 ---
 
+## 👥 Collaboration et gestion granulaire des droits
 
-## 📈 Tableaux de bord et analytics
+**Version Community** :
+- Gestion des utilisateurs et rôles basiques
+- Traçabilité des modifications
+- Commentaires et annotations
 
-Des tableaux de bord personnalisables offrent une vue stratégique de votre SI :
+**Version Enterprise - Gestion avancée des cartographes** :
 
-- **Métriques clés** : Nombre d'actifs, taux de documentation, évolution
-- **Indicateurs de conformité** : Progression vers les objectifs
-- **Analyses de tendances** : Évolution dans le temps
-- **Alertes** : Notification des anomalies et non-conformités
+Système de permissions granulaires permettant de distribuer la responsabilité de cartographie entre plusieurs équipes tout en maintenant la cohérence globale.
+
+**Capacités** :
+- Rôles de cartographe personnalisés par domaine (réseau, applicatif, sécurité, processus)
+- Permissions détaillées par type d'objet et action (lecture, création, modification, suppression)
+- Workflows de validation multi-niveaux avant publication
+- Délégation de responsabilités tout en respectant le principe de moindre privilège
+
+**Idéal pour** : Organisations multi-sites, collaboration inter-équipes, responsabilités distribuées.
 
 ---
 
 ## 🔄 Import et Export de données
 
-Mercator facilite l'échange de données avec d'autres systèmes :
+Mercator facilite l'échange de données avec votre écosystème :
 
-**Import**
-- Import CSV pour chargement massif de données
-- Connecteurs pour sources de données externes
-- Scripts d'import personnalisables
+**Import** :
+- Import CSV pour chargement massif initial
+- Connecteurs pour sources externes (AD, CMDB, scanners réseau)
+- Scripts personnalisables pour formats propriétaires
 
-**Export**
-- Export complet ou partiel de la cartographie
-- Formats multiples (CSV, JSON, XML)
-- Automatisation via API
-
----
-
-## 👥 Collaboration et gestion des utilisateurs
-
-**Gestion des droits**
-- Rôles et permissions configurables
-- Accès granulaire par domaine
-- Traçabilité des modifications
-
-**Collaboration**
-- Commentaires et annotations
-- Workflow de validation
-- Historique des changements
+**Export** :
+- Export complet ou filtré de la cartographie
+- Formats multiples : CSV, JSON, XML, Excel
+- Automatisation via API et planification
 
 ---
 
-## 🌟 Fonctionnalités exclusives Enterprise
+## ⚡ Performance et évolutivité
 
-Mercator propose également une **version Enterprise** avec deux fonctionnalités avancées pour les organisations ayant des besoins complexes :
-
-### 🎨 Modélisation de processus BPMN 2.0
-
-|    |    |
-|----|----|
-| {{< img src="/images/BPMN.png" width="40em" >}} | <p>Dessinez et modélisez vos processus métiers avec la notation **BPMN 2.0** (Business Process Model and Notation), standard international de modélisation des processus.</p><p>Les processus, tâches et acteurs de la cartographie sont directement liés aux applications, serveurs et réseaux du système d'information, créant ainsi une vision unifiée métier-technique.</p> |
-
-**Capacités** :
-- Diagrammes de processus interactifs
-- Événements, tâches, branchements et connecteurs
-- Alignement avec les standards internationaux
-- Intégration avec la cartographie existante
-
-**Idéal pour** : Documenter les workflows métiers, identifier les points d'optimisation, communiquer avec les équipes métiers.
-
-### 👥 Gestion granulaire des cartographes
-
-Système avancé de **permissions par rôle** permettant de distribuer la responsabilité de cartographie entre plusieurs équipes.
-
-**Capacités** :
-- Rôles de cartographe personnalisés
-- Permissions granulaires par type d'objet
-- Délégation par domaine (réseau, applications, infrastructure)
-- Workflows de validation multi-niveaux
-
-**Idéal pour** : Grandes organisations multi-équipes, collaboration distribuée, respect du principe de moindre privilège.
-
----
-
-## Performance et scalabilité
-
-- **Optimisé** pour gérer des SI de toute taille
-- **Performances** maintenues même avec des milliers d'objets
-- **Architecture modulaire** permettant l'évolution
-- **Déploiement flexible** : on-premise ou cloud
+- Architecture optimisée pour gérer des milliers d'objets sans dégradation
+- Moteur de recherche performant avec indexation
+- Calculs de conformité et d'impact en temps réel
+- Déploiement flexible : on-premise, cloud privé ou conteneurs
+- Évolutivité horizontale pour grandes organisations
 
 ---
 
