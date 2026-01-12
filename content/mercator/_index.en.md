@@ -126,7 +126,7 @@ Mercator has been voted <a href="https://www.ow2.org/view/OW2-Project-of-the-Mon
 <li>The <strong>code quality</strong> and technical architecture</li>
 <li>The <strong>richness of the documentation</strong> and guides</li>
 <li>The <strong>community dynamics</strong> and contributor engagement</li>
-<li>The <strong>real impact</strong> in the field of cybersecurity and the compliance</li>
+<li>The <strong>real impact</strong> in the field of cybersecurity and compliance</li>
 </ul>
 </div>
 </div>

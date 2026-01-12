@@ -126,7 +126,7 @@ Mercator a été élu <a href="https://www.ow2.org/view/OW2-Project-of-the-Month
 <li>La <strong>qualité du code</strong> et l'architecture technique</li>
 <li>La <strong>richesse de la documentation</strong> et des guides</li>
 <li>La <strong>dynamique de la communauté</strong> et l'engagement des contributeurs</li>
-<li>L'<strong>impact réel</strong> dans le domaine de la cybersécurité et la conformité</li>
+<li>L'<strong>impact réel</strong> dans le domaine de la cybersécurité et de la conformité</li>
 </ul>
 </div>
 </div>
