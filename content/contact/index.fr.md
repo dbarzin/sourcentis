@@ -17,4 +17,11 @@ draft: false
 
 *⏳ Nous répondons généralement sous 24 heures.*  
 
+### 📨 Mailing liste
+
+[Inscrivez-vous](https://news.sourcentis.com/subscription/form) à notre liste de distribution pour rester informer de l'évolution de nos projets 
+
+### LinkedIn
+
 Retrouvez-nous également sur [LinkedIn](https://www.linkedin.com/company/106057112/admin/dashboard/).
+
