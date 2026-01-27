@@ -15,13 +15,11 @@ draft: false
 - Vos coordonnées  
 - Tous les détails utiles  
 
-*⏳ Nous répondons généralement sous 24 heures.*  
+* ⏳ Nous nous engageons à répondre sous 24 heures ouvrées.*
 
-### 📨 Mailing liste
+## 🚀 Restez informé
 
-[Inscrivez-vous](https://news.sourcentis.com/subscription/form) à notre liste de distribution pour rester informer de l'évolution de nos projets 
+📨 **Newsletter** : [Inscrivez-vous à notre liste de distribution](https://news.sourcentis.com/subscription/form) pour suivre l'évolution de nos projets et nos actualités
 
-### LinkedIn
-
-Retrouvez-nous également sur [LinkedIn](https://www.linkedin.com/company/106057112/admin/dashboard/).
+**LinkedIn** : Suivez [Sourcentis sur LinkedIn](https://www.linkedin.com/company/106057112/) pour nos publications professionnelles
 
