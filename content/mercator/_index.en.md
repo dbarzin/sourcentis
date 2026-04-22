@@ -160,7 +160,7 @@ It also allows you to integrate Mercator into your CI/CD pipelines to update the
 
 <div style="display: flex; gap: 2em; align-items: flex-start; flex-wrap: wrap; margin: 1.5em 0;">
 <div style="flex: 0 0 42%; min-width: 260px;">
-{{< img src="/images/repartition.png" width="100%" >}}
+{{< img src="/images/mercator.report.png" width="100%" >}}
 </div>
 <div style="flex: 1; min-width: 280px; font-size: 0.88em;">
 
@@ -235,7 +235,7 @@ Mercator was awarded **[Best Open Source Project 2024](https://www.ow2.org/view/
 
 ### Mercator is entirely free
 
-<p style="font-size: 0.88em;">All Mercator features — including the BPMN 2.0 module — are freely available under the <strong>GPL licence</strong>. No hidden modules, no functional limitations. Community support is provided via <strong><a href="https://github.com/dbarzin/mercator/discussions">GitHub Issues and Discussions</a></strong>.</p>
+<p style="font-size: 0.88em;">All of Mercator's features are freely available under the <strong>GPL license</strong>. There are no hidden modules, no functional limitations, and no artificial intelligence. Community support is provided via <strong><a href="https://github.com/dbarzin/mercator/discussions">GitHub Issues and Discussions</a></strong>.</p>
 
 <br>
 
