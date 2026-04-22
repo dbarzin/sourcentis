@@ -88,8 +88,6 @@ Mercator organizes your IT mapping into seven complementary views, covering the 
 </div>
 </div>
 
-<br>
-
 ## Impact analysis and interactive exploration
 
 <div style="display: flex; gap: 2em; align-items: flex-start; flex-wrap: wrap; margin: 1.5em 0;">
@@ -107,8 +105,6 @@ Mercator enables you to detect **SPOFs** (single points of failure) before they 
 </div>
 </div>
 
-<br>
-
 ## Compliance and maturity
 
 <div style="display: flex; gap: 2em; align-items: flex-start; flex-wrap: wrap; margin: 1.5em 0;">
@@ -119,12 +115,11 @@ Mercator calculates a **maturity score** for your mapping based on the completen
 The generated reports are directly usable for your audits, management reviews and regulatory submissions (NIS2, ISO 27001, HDS).
 
 </div>
-<div style="flex: 0 0 42%; min-width: 260px;">
+<div style="flex: 0 0 32%; min-width: 260px;">
 {{< img src="/images/conform.png" width="100%" >}}
 </div>
 </div>
 
-<br>
 
 ## BPMN 2.0 — Bridging business and infrastructure
 
@@ -143,8 +138,6 @@ It is the missing link between IT teams and management, and between technical ma
 </div>
 </div>
 
-<br>
-
 ## REST API and integrations
 
 <div style="display: flex; gap: 2em; align-items: center; flex-wrap: wrap; margin: 1.5em 0;">
@@ -162,7 +155,6 @@ It also allows you to integrate Mercator into your CI/CD pipelines to update the
 </div>
 </div>
 
-<br>
 
 ## Reports and dashboards
 
@@ -178,8 +170,6 @@ Mercator also generates **professional reports** exportable in PDF, Excel and CS
 
 </div>
 </div>
-
-<br>
 
 ## They use Mercator
 
@@ -263,8 +253,8 @@ Mercator was awarded **[Best Open Source Project 2024](https://www.ow2.org/view/
 
 ## Get started with Mercator
 
-<p style="font-size: 0.88em;"><strong>Quick installation</strong> — Follow the <strong><a href="https://github.com/dbarzin/mercator/blob/master/INSTALL.md">installation guide on GitHub</a></strong> or deploy in minutes with Docker.</p>
+<p style="font-size: 0.88em;"><strong>Quick installation</strong> — Follow the <strong><a href="https://github.com/dbarzin/mercator/blob/master/guides/INSTALL_VM.md">installation guide on GitHub</a></strong> or deploy in minutes with Docker.</p>
 
-<p style="font-size: 0.88em;"><strong>Full documentation</strong> — Everything is available at <strong><a href="https://dbarzin.github.io/mercator/index/">dbarzin.github.io/mercator</a></strong>: configuration, API reference, feature guides.</p>
+<p style="font-size: 0.88em;"><strong>Full documentation</strong> — Everything is available at <strong><a href="https://dbarzin.github.io/mercator">dbarzin.github.io/mercator</a></strong>: configuration, API reference, feature guides.</p>
 
 <p style="font-size: 0.88em;"><strong>Join the community</strong> — Ask questions, share feedback and contribute on <strong><a href="https://github.com/dbarzin/mercator/discussions">GitHub Discussions</a></strong>.</p>

@@ -21,7 +21,7 @@ og_image: "/images/mercator.png"
 
 <div style="display: flex; gap: 1em; flex-wrap: wrap; margin: 1.5em 0;">
   <a href="https://github.com/dbarzin/mercator" class="btn btn-primary">⭐ Voir sur GitHub</a>
-  <a href="https://dbarzin.github.io/mercator/index.fr/" class="btn btn-secondary">📖 Documentation</a>
+  <a href="https://dbarzin.github.io/mercator/fr" class="btn btn-secondary">📖 Documentation</a>
   <a href="#support" class="btn btn-secondary">💼 Support professionnel</a>
 </div>
 
@@ -54,7 +54,7 @@ Installation en quelques minutes via Docker ou guide d'installation détaillé. 
 
 <div>
 <h3>🤝 Communauté active</h3>
-460+ étoiles GitHub, contributeurs internationaux, forum actif. Élu <strong>Meilleur Projet Open Source OW2 2024</strong>.
+500+ étoiles GitHub, contributeurs internationaux, forum actif. Élu <strong>Meilleur Projet Open Source OW2 2024</strong>.
 </div>
 
 </div>
@@ -90,8 +90,6 @@ Mercator organise la cartographie de votre système d'information en sept vues c
 </div>
 </div>
 
-<br>
-
 ## Analyse d'impact et exploration interactive
 
 <div style="display: flex; gap: 2em; align-items: flex-start; flex-wrap: wrap; margin: 1.5em 0;">
@@ -109,8 +107,6 @@ Mercator permet notamment de détecter les **SPOF** (points de défaillance uniq
 </div>
 </div>
 
-<br>
-
 ## Conformité et maturité
 
 <div style="display: flex; gap: 2em; align-items: flex-start; flex-wrap: wrap; margin: 1.5em 0;">
@@ -121,12 +117,10 @@ Mercator calcule un **score de maturité** de votre cartographie à partir de la
 Les rapports générés sont directement exploitables pour vos audits, comités de direction et revues réglementaires (NIS2, ISO 27001, HDS).
 
 </div>
-<div style="flex: 0 0 42%; min-width: 260px;">
+<div style="flex: 0 0 32%; min-width: 260px;">
 {{< img src="/images/conform.png" width="100%" >}}
 </div>
 </div>
-
-<br>
 
 ## BPMN 2.0 — Le pont entre métier et infrastructure
 
@@ -144,8 +138,6 @@ C'est le chaînon manquant entre l'équipe IT et la direction, et entre la carto
 
 </div>
 </div>
-
-<br>
 
 ## API REST et intégrations
 
@@ -270,8 +262,8 @@ Mercator a été élu **[Meilleur Projet Open Source 2024](https://www.ow2.org/v
 
 ## Démarrer avec Mercator
 
-<p style="font-size: 0.88em;"><strong>Installation rapide</strong> — Suivez le <strong><a href="https://github.com/dbarzin/mercator/blob/master/INSTALL.fr.md">guide d'installation sur GitHub</a></strong> ou déployez en quelques minutes avec Docker.</p>
+<p style="font-size: 0.88em;"><strong>Installation rapide</strong> — Suivez le <strong><a href="https://github.com/dbarzin/mercator/blob/master/guides/INSTALL_VM.fr.md">guide d'installation sur GitHub</a></strong> ou déployez en quelques minutes avec Docker.</p>
 
-<p style="font-size: 0.88em;"><strong>Documentation complète</strong> — Tout est disponible sur <strong><a href="https://dbarzin.github.io/mercator/index.fr/">dbarzin.github.io/mercator</a></strong> : configuration, API, guides par fonctionnalité.</p>
+<p style="font-size: 0.88em;"><strong>Documentation complète</strong> — Tout est disponible sur <strong><a href="https://dbarzin.github.io/mercator/fr">dbarzin.github.io/mercator</a></strong> : configuration, API, guides par fonctionnalité.</p>
 
 <p style="font-size: 0.88em;"><strong>Rejoindre la communauté</strong> — Posez vos questions, partagez vos retours et contribuez sur <strong><a href="https://github.com/dbarzin/mercator/discussions">GitHub Discussions</a></strong>.</p>
