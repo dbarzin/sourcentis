@@ -19,6 +19,10 @@ draft: false
 
 ## 🚀 Stay informed
 
-📨 **Newsletter**: [Subscribe to our mailing list](https://news.sourcentis.com/subscription/form) to stay up-to-date on our projects and news
+📨 **Newsletter**: Subscribe to our mailing list to stay up-to-date on our projects and news
+
+<div class="newsletter-block" style="max-width: 640px;">
+{{< newsletter >}}
+</div>
 
 **LinkedIn**: Follow [Sourcentis on LinkedIn](https://www.linkedin.com/company/106057112/) for our professional publications

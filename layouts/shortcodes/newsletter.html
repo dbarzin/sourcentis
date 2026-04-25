@@ -1,0 +1,127 @@
+<div class="newsletter-block">
+  <form id="nl-form" novalidate>
+    <div class="nl-fields">
+      <input
+        type="email"
+        id="nl-email"
+        name="email"
+        placeholder="votre@email.com"
+        required
+        autocomplete="email"
+      />
+      <input
+        type="text"
+        id="nl-name"
+        name="name"
+        placeholder="Nom"
+        autocomplete="given-name"
+      />
+      <button type="submit" id="nl-btn">S'inscrire</button>
+    </div>
+    <p id="nl-msg" role="status" aria-live="polite"></p>
+  </form>
+</div>
+
+<style>
+.newsletter-block {
+  margin: 0.5rem 0 1rem;
+}
+.nl-fields {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+}
+.nl-fields input {
+  padding: 0.45rem 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  flex: 1 1 180px;
+}
+.nl-fields input:focus {
+  outline: 2px solid #0077cc;
+  border-color: #0077cc;
+}
+.nl-fields button {
+  padding: 0.45rem 1.1rem;
+  background: #0077cc;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.nl-fields button:hover {
+  background: #005fa3;
+}
+.nl-fields button:disabled {
+  background: #888;
+  cursor: not-allowed;
+}
+#nl-msg {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  min-height: 1.2em;
+}
+#nl-msg.success { color: #2a7a2a; }
+#nl-msg.error   { color: #c0392b; }
+</style>
+
+<script>
+(function () {
+  var LISTMONK_URL  = 'https://news.sourcentis.com/api/public/subscription';
+  var LIST_UUIDS    = ['31dfcd4b-7a17-4d4f-93d3-bbc2d3a4c177']; // l'UUID de la liste
+
+  var form  = document.getElementById('nl-form');
+  var btn   = document.getElementById('nl-btn');
+  var msg   = document.getElementById('nl-msg');
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+
+    var email = document.getElementById('nl-email').value.trim();
+    var name  = document.getElementById('nl-name').value.trim();
+
+    if (!email) {
+      showMsg('Veuillez saisir votre adresse email.', 'error');
+      return;
+    }
+
+    btn.disabled    = true;
+    btn.textContent = '…';
+    msg.textContent = '';
+    msg.className   = '';
+
+    fetch(LISTMONK_URL, {
+      method:  'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body:    JSON.stringify({ email: email, name: name, list_uuids: LIST_UUIDS })
+    })
+    .then(function (res) {
+      if (res.ok) {
+        showMsg('✅ Inscription envoyée ! Vérifiez votre email pour confirmer.', 'success');
+        form.reset();
+      } else {
+        return res.text().then(function (t) {
+          throw new Error(t || res.status);
+        });
+      }
+    })
+    .catch(function (err) {
+      console.error('Newsletter:', err);
+      showMsg('❌ Une erreur est survenue. Réessayez ou écrivez-nous directement.', 'error');
+    })
+    .finally(function () {
+      btn.disabled    = false;
+      btn.textContent = "S'inscrire";
+    });
+  });
+
+  function showMsg(text, cls) {
+    msg.textContent = text;
+    msg.className   = cls;
+  }
+})();
+</script>
