@@ -68,7 +68,7 @@ Installation en quelques minutes via Docker ou guide d'installation détaillé. 
 
 Mercator organise la cartographie de votre système d'information en sept vues complémentaires, couvrant l'intégralité du périmètre — des relations contractuelles jusqu'aux équipements physiques.
 
-**Vue du RGPD** — Le regsitre de traitements et vos mesures de sécurité.
+**Vue du RGPD** — Le registre de traitements et vos mesures de sécurité.
 
 **Vue écosystème** — Fournisseurs, partenaires, sous-traitants et les relations contractuelles qui vous lient à eux.
 
