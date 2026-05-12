@@ -13,7 +13,7 @@ og_image: "/images/deming.png"
 |----|----|
 | {{< img src="/images/deming.png" alt="Mercator" width="110em" >}} | Dans le cyberespace où la sécurité de l’information est plus critique que jamais, les organisations doivent non seulement implémenter des mesures de sécurité, mais aussi s’assurer que celles-ci sont effectives et performantes. Deming est là pour vous aider à relever ce défi avec brio. Deming est un outil Open Source conçu pour la gestion, la planification, le suivi et le reporting de l’efficacité des mesures de sécurité. Conformément à la norme ISO 27004, Deming vous aide à garantir une sécurité adaptée et proportionnée, tout en respectant les standards les plus exigeants. |
 
-[Télécharger Deming](https://github.com/dbarzin/deming) | [Lire la documentation](https://dbarzin.github.io/deming/index.fr/)
+[Télécharger Deming](https://github.com/dbarzin/deming) | [Lire la documentation](https://dbarzin.github.io/deming/fr/)
 
 ## Gestion centralisée des contrôles
 
