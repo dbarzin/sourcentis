@@ -20,8 +20,8 @@ As cyberattacks grow in frequency and sophistication, as NIS2 imposes new obliga
 **Mercator** is an Open Source IT mapping tool, born from real-world experience and aligned with ANSSI recommendations. It is designed for CISOs, IT managers and technical teams who want to regain control of their information system with a pragmatic, accessible and proven solution — with no major software investment.
 
 <div style="display: flex; gap: 1em; flex-wrap: wrap; margin: 1.5em 0;">
-  <a href="https://github.com/dbarzin/mercator" class="btn btn-primary">⭐ View on GitHub</a>
-  <a href="https://dbarzin.github.io/mercator/" class="btn btn-secondary">📖 Documentation</a>
+  <a href="https://github.com/sourentis/mercator" class="btn btn-primary">⭐ View on GitHub</a>
+  <a href="https://sourcentis.github.io/mercator/" class="btn btn-secondary">📖 Documentation</a>
   <a href="#support" class="btn btn-secondary">💼 Professional support</a>
 </div>
 

@@ -20,8 +20,8 @@ og_image: "/images/mercator.png"
 **Mercator** est un outil Open Source de cartographie SI, né du terrain et aligné sur les recommandations de l'ANSSI. Il s'adresse aux RSSI, responsables IT et équipes techniques qui veulent reprendre le contrôle de leur système d'information avec une solution pragmatique, accessible et éprouvée — sans investissement logiciel majeur.
 
 <div style="display: flex; gap: 1em; flex-wrap: wrap; margin: 1.5em 0;">
-  <a href="https://github.com/dbarzin/mercator" class="btn btn-primary">⭐ Voir sur GitHub</a>
-  <a href="https://dbarzin.github.io/mercator/fr" class="btn btn-secondary">📖 Documentation</a>
+  <a href="https://github.com/sourcentis/mercator" class="btn btn-primary">⭐ Voir sur GitHub</a>
+  <a href="https://sourcentis.github.io/mercator/fr" class="btn btn-secondary">📖 Documentation</a>
   <a href="#support" class="btn btn-secondary">💼 Support professionnel</a>
 </div>
 
