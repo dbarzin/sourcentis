@@ -1,5 +1,5 @@
 baseURL = "https://www.sourcentis.com/"
-languageCode = "fr-fr"  # Format ISO 639-1 + ISO 3166-2
+locale = "fr-fr"  # Format ISO 639-1 + ISO 3166-2
 title = "Sourcentis | Mercator & Deming - cartographie et conformité du SI"
 theme = "PaperMod"
 
@@ -19,13 +19,13 @@ disableHugoGeneratorInject = true  # Optionnel : masque la version Hugo
 
 [languages]
   [languages.fr]
-    languageName = "Français"
+    label = "Français"
     weight = 1
     contentDir = "content"
     title = "Sourcentis"
 
   [languages.en]
-    languageName = "English"
+    label = "English"
     weight = 2
     contentDir = "content"
     title = "Sourcentis"
