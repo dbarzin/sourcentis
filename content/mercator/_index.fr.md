@@ -242,7 +242,7 @@ Mercator a été élu **[Meilleur Projet Open Source 2024](https://www.ow2.org/v
 
 ### Mercator est entièrement gratuit
 
-<p style="font-size: 0.88em;">Toutes les fonctionnalités de Mercator sont disponibles gratuitement sous la licence <strong>GPL</strong>. Il n'y a ni modules cachés, ni limitations fonctionnelles, ni intelligence artificielle. L'assistance communautaire est assurée via <strong><a href="https://github.com/dbarzin/mercator/discussions">GitHub Issues et Discussions</a></strong>.</p>
+<p style="font-size: 0.88em;">Toutes les fonctionnalités de Mercator sont disponibles gratuitement sous la licence <strong>GPL</strong>. Il n'y a ni modules cachés, ni limitations fonctionnelles, ni intelligence artificielle. L'assistance communautaire est assurée via <strong><a href="https://github.com/sourcentis/mercator/discussions">GitHub Issues et Discussions</a></strong>.</p>
 
 <br>
 
@@ -262,8 +262,8 @@ Mercator a été élu **[Meilleur Projet Open Source 2024](https://www.ow2.org/v
 
 ## Démarrer avec Mercator
 
-<p style="font-size: 0.88em;"><strong>Installation rapide</strong> — Suivez le <strong><a href="https://github.com/dbarzin/mercator/blob/master/guides/INSTALL_VM.fr.md">guide d'installation sur GitHub</a></strong> ou déployez en quelques minutes avec Docker.</p>
+<p style="font-size: 0.88em;"><strong>Installation rapide</strong> — Suivez le <strong><a href="https://github.com/sourcentis/mercator/blob/master/guides/INSTALL_VM.fr.md">guide d'installation sur GitHub</a></strong> ou déployez en quelques minutes avec Docker.</p>
 
 <p style="font-size: 0.88em;"><strong>Documentation complète</strong> — Tout est disponible sur <strong><a href="https://dbarzin.github.io/mercator/fr">dbarzin.github.io/mercator</a></strong> : configuration, API, guides par fonctionnalité.</p>
 
-<p style="font-size: 0.88em;"><strong>Rejoindre la communauté</strong> — Posez vos questions, partagez vos retours et contribuez sur <strong><a href="https://github.com/dbarzin/mercator/discussions">GitHub Discussions</a></strong>.</p>
+<p style="font-size: 0.88em;"><strong>Rejoindre la communauté</strong> — Posez vos questions, partagez vos retours et contribuez sur <strong><a href="https://github.com/sourcentis/mercator/discussions">GitHub Discussions</a></strong>.</p>
