@@ -264,6 +264,6 @@ Mercator a été élu **[Meilleur Projet Open Source 2024](https://www.ow2.org/v
 
 <p style="font-size: 0.88em;"><strong>Installation rapide</strong> — Suivez le <strong><a href="https://github.com/sourcentis/mercator/blob/master/guides/INSTALL_VM.fr.md">guide d'installation sur GitHub</a></strong> ou déployez en quelques minutes avec Docker.</p>
 
-<p style="font-size: 0.88em;"><strong>Documentation complète</strong> — Tout est disponible sur <strong><a href="https://dbarzin.github.io/mercator/fr">dbarzin.github.io/mercator</a></strong> : configuration, API, guides par fonctionnalité.</p>
+<p style="font-size: 0.88em;"><strong>Documentation complète</strong> — Tout est disponible sur <strong><a href="https://sourcentis.github.io/mercator/fr">sourcentis.github.io/mercator</a></strong> : configuration, API, guides par fonctionnalité.</p>
 
 <p style="font-size: 0.88em;"><strong>Rejoindre la communauté</strong> — Posez vos questions, partagez vos retours et contribuez sur <strong><a href="https://github.com/sourcentis/mercator/discussions">GitHub Discussions</a></strong>.</p>
